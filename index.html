@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I Love You Forever</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    background-color: #fff5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    color: #e63946;
+    overflow: hidden;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  button {
+    margin-top: 20px;
+    background: none;
+    border: 2px solid #e63946;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #e63946;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #e63946;
+    color: #fff;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .message {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .message.show {
+    opacity: 1;
+  }
+</style>
+</head>
+<body>
+  <h1>I love you Tara forever and ever.
+  <button onclick="showMessage()">Click me</button>
+  <div class="message" id="message"></div>
+
+  <script>
+    const messages = [
+      "You’re my everything bachu.",
+      "My heart beats for you peetu.",
+      "You’re my forever cutu.",
+      "I’m yours, always sahiba.",
+      "I’m yours, always and forever madam.",
+      "Love you more each day."
+    ];
+
+    let i = 0;
+    function showMessage() {
+      const msg = document.getElementById('message');
+      msg.textContent = messages[i];
+      msg.classList.add('show');
+      i = (i + 1) % messages.length;
+    }
+  </script>
+</body>
+</html>
