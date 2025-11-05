@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I Love You Tara ❤️</title>
+  <style>
+    body {
+      background-color: #f9c5d1; /* baby pink */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      color: #ffffff;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 3em;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: #fffafc;
+    }
+  </style>
+</head>
+<body>
+  <h1>I</h1>
+  <h2>Love</h2>
+	<h3>you</h3>
+	<h4>bachu</h4>
+	<h5>sahiba</h5>
+	<h6>cutu</h6>
+	<h7>biryani</h7>
+	<h8>jaanu</h8>
+	<h9>peetu</h9>
+  <p>Forever and always.</p>
+</body>
+</html>
